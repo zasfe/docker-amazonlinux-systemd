@@ -1,5 +1,7 @@
 FROM amazonlinux:1
-LABEL maintainer="Robert de Bock"
+
+LABEL maintainer="Robert de Bock <robert@meinit.nl>"
+
 ENV container=docker
 
 RUN yum -y install upstart
